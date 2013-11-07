@@ -1,0 +1,67 @@
+@CHARSET "UTF-8";
+
+* { padding:0; margin:0; }
+/*body的属性*/
+ body { 
+   padding:60px; 
+   font:12px "宋体";
+   background-color: #CCCCFF;
+   }
+
+/*左侧导航栏的整体设置*/
+.box { 
+	width:250px; 
+	border-bottom:1px solid #CCC; 
+	margin: 0px;
+	}
+	
+/*左边的导航栏的设置*/
+.box h1 { 
+	height:50px; 
+	line-height:50px; 
+	padding:0 10px; 
+	font-size:20px;
+	color:#006699; 
+	cursor:pointer;
+	border:1px solid #ccc; 
+	border-bottom:none; 
+	background:#eee url(img/bg.gif) no-repeat right -27px; 
+	}
+.box h1.hover { 
+	background-color:#e3e2e2; 
+	}
+.box h1.active { 
+	background-position:right 7px; 
+	}
+.box p { 
+	padding:10px; 
+	border-left:1px solid #ccc; 
+	border-right:1px solid #ccc; 
+	}
+
+/*老师操作的展开菜单*/
+.teacherOpetatorNextMenu{
+	line-height:30px;
+	padding: 20px;
+}
+.teacherOpetatorNextP{
+	background-color: #99CCCC;
+}
+
+/*超链接的样式*/
+a{
+	padding:5px;
+	font-size:large;
+    text-decoration: none;
+    color:#003366;
+    margin-bottom: 4px;
+}
+a:hover { 
+	
+	background-color:#9933CC;
+	text-decoration:none; 
+} 
+a:active { 
+	color:#009933; 
+	text-decoration:none; 
+} 

@@ -1,0 +1,10 @@
+@CHARSET "UTF-8";
+
+/*top中标题的设置*/
+ .topHeader{
+         margin-left: 500px;
+         font-size:xx-large;
+         font-family:fantasy;
+         font-weight: bolder;
+         color: #336699;
+ }

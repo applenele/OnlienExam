@@ -1,0 +1,53 @@
+@CHARSET "UTF-8";
+ /*增加页的body*/
+ body{
+    background-image: url(../images/showAllStudentBackgroundPic.jpg);
+    
+    background-attachment: fixed;;
+ }
+ /*设置增加夜的标题的样式*/
+ .Header{
+    margin-left: 460px;
+  }
+ /*增加页的大层的设置*/ 
+ .addStudentDiv{
+  
+    pading:30px;
+    margin: 30px;
+ }
+ 
+ /*登陆信息的表格的设置*/
+ .addStudentTable{
+    margin-left: 250px;
+    width: 500px;
+    border:1px blue solid; 
+ }
+ .addStudentTable tr{
+    width: 500px;
+ }
+ .addStudentTable tr td{
+    height: 40px;
+    font-size: large;
+    width: 100px
+ }
+ 
+ /*设置input*/
+ input{
+      height: 25px;
+ }
+ 
+ /*设置第一列的字体*/
+ .td{
+   font-family: sans-serif;
+ }
+ 
+ /*设置select的样式*/
+ select{
+   height: 25px;
+ }
+ 
+#warning{
+   color: red;
+ }
+ 
+ 

@@ -1,0 +1,212 @@
+/* CSS Document */
+body { 
+  margin: 0; 
+  padding: 0; 
+  background-attachment: fixed; /* prevent screen flash in IE6 */ 
+}
+#warp{  
+   position: absolute;
+   left: 50%;
+   width: 760px;
+   margin-left: -380px;
+}
+	
+/*注册按钮*/
+#registerOK{
+	  background: url(../images/loginButton.jpg);
+	  margin-left: 180px;
+	  width: 60px;
+ }	
+	/*登陆窗口设置*/
+.login_register_box_header{
+       height: 100px;
+       margin-top:30px;
+
+       width: 600px;
+	 }
+	 
+#login_box_setting{
+	 /* background:#FFFFFF;*/
+   /* background-image:url(../images/login_box_bg.jpg);*/
+    /*background: rgba(255, 255, 255,.65);*/
+	border-radius:20px; /*Bezel-set radian*/
+    -webkit-border-radiu:20px;/* for webkit*/
+    -moz-border-radiu:20px;/*for firfox*/
+    
+      /* filter:alpha(opacity=0,finishopacity=100,style=1,startx=0,starty=0,finishx=100,finishy=100);*/
+    /*filter:alpha(opacity=100); /* IE */ 
+   /* -moz-opacity:0.3; /* Moz + FF */
+  
+	width:348px;
+	height:350px;
+	margin-left: 200px;
+	margin-top: 20px;
+}	 
+#login_box{
+    position:relative;
+    z-index:99;
+    width:350px;
+	height:345px;
+	margin-left: 200px;
+	margin-top: -352px;
+	   
+    border-color:#99CCFF; 
+    box-shadow:0px 0px 20px #fff;
+    border-radius:20px; /*Bezel-set radian*/
+	}
+	
+/*全部的input设置*/
+input:focus{
+	  background: #CCFF99;
+	}
+	
+input{
+	 font-size:16px;
+	 height:30px;
+	 line-height:30px;
+}
+
+#login_ul{
+	position:relative;
+	list-style:none;
+	}
+#login_ul li{
+	float:left;
+	}
+#suerName_li{
+	margin-top:20px;
+	height:30px;
+	width:100px;
+	text-align:center;
+	}
+#login_suserName_input_li{
+	height:30px;
+	margin-top: 20px;
+}
+#tuserName{
+	margin-top:0px;
+	}
+#spassword_li {
+	height:30px;
+	margin-top:20px;
+	width:100px;
+	text-align:center;
+	}
+#spassword_li_input{
+	margin-top:20px ;
+	}
+#confirmCode_li{
+	height:30px;
+	margin-top:20px;
+	width:100px;
+	text-align:center;
+	}
+#verifyCode{
+	margin-top:20px;
+	width: 80px;
+}
+
+#userKind_li{
+	height:30px;
+	margin-top:20px;
+	width:110px;
+	text-align:center;
+}
+
+#userKind{
+	margin-top:20px;
+	height:30px;
+	line-height:30px;
+	width:122px;
+}
+#userKind_select_li{
+	width: 220px;
+}
+#login_btn_li{
+	margin-top:20px;
+	margin-left:60px;
+	width:80px;
+}
+
+/*登陆按钮的设置*/	
+#loginOK{
+	  background-image: url(../images/loginButton02.jpg);
+	  width: 100px;
+	  height: 48px;
+	  border: 1px red solid;
+	  border-radius:10px; 
+}
+
+/*login jsp register button setting*/
+#registerOk{
+	  background-image: url(../images/registerButton.jpg);
+	  width: 100px;
+	  height: 48px;
+	  border: 1px red solid;
+	  border-radius:10px;
+}
+	
+
+/*error warning*/
+#warning{
+   color:red;
+   font-family:sans-serif;
+   font-size:20px;
+   margin-top:5px;
+   width: 300px;
+   height:50px;
+   height: 20px;
+}
+
+
+#topNavWrapper { 
+width:100%;
+height: 42px; 
+margin: 0px auto; 
+z-index:100; 
+_position: relative ; 
+_top:0px; 
+}
+#topNavWrapper div,ul{
+	padding:0;
+	margin: 0;
+}
+#topNavWrapper ul li{
+    list-style: none;
+}
+#topNav { 
+width: 100%; 
+display: block; 
+z-index: 100; 
+overflow: visible; 
+position: fixed; 
+top: 0px; /* position fixed for IE6 */ 
+_position: absolute; 
+_top: expression(documentElement.scrollTop + "px"); 
+background-repeat: no-repeat; 
+background-position: right; 
+height:42px; 
+line-height: 42px; 
+color:#000; 
+background-color:#99CCCC; 
+text-align:center; 
+} 
+
+#header{
+	background:#0099CC;
+	line-height:35px;
+	height:35px;
+	text-align:center;
+	}
+#header_title{
+	font-family:"Comic Sans MS", cursive;
+	font-style:normal;
+	font-weight:bold;}
+#cilickToRegister{
+	border:none;
+	border-color:#699;
+	height:25px;
+	margin-left:60%;
+	position:relative;
+	}
+

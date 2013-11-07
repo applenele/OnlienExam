@@ -1,0 +1,98 @@
+@CHARSET "UTF-8";
+
+body{
+  background-image: url(../images/showAllStudentBackgroundPic.jpg);
+}
+.header{
+	font-family: fantasy;;
+	color: #006699;
+	margin-left: 80px;
+}
+#show_user_info_table{
+  border-collapse:0;
+  border-spacing:0;
+  margin-top: 6%;
+  margin-left: 10%;
+  width:600px;
+}
+#show_user_info_table #test_modify_user_info_modify_class_btn{
+   background-color:#99CCCC;
+   border: none;
+   margin-left: 20px;
+}
+
+/*导航提示位置栏*/
+#navigation{
+	margin-top: 16px;
+}
+#navigation span{
+	color:#666699;
+    margin-left: 10px;
+}
+
+/*密码行*/
+#show_modify_pwd_box{
+	display: none;
+}
+#click_to_modify_pwd{
+	border:none;
+	height:30px;
+	margin:4px;
+	width: 72px;
+}
+#modify_pwd_div{
+	width:56%;
+	border:1px red solid;
+	float: left;
+}
+#modify_pwd_div #modify_pwd_div_table{
+	border-collapse: 0;
+	border-spacing: 0;
+}
+#modify_pwd_div #modify_pwd_div_table input{
+	height: 20px;
+}
+#modify_pwd_btn{
+	text-align: center;
+}
+#modify_pwd_btn button{
+	border:0;
+}
+#right_show_error_warning{
+	border:1px red solid;
+	float: right;
+	height:60px;
+	width: 40%;
+}
+
+
+/*显示学校，专业，学生*/
+#show_xy_major_class{
+   border: 1px red solid; 
+   display: none;
+}
+
+/*性别相关设置，包括显示当前，修改*/
+
+
+/*提交行*/
+#submit_tr{
+	 text-align: center;
+}
+
+/*提交按钮*/
+#email_submit_modify_btn{
+	border:1px;
+	height: 30px;
+	margin-top:6px;
+	margin-bottom:6px;
+	margin-left:6px;
+	width: 72px;
+}
+
+/*邮箱行*/
+#email_warning{
+	margin-left: 10px;
+	color: red;
+	font-size:large;
+}

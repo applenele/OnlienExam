@@ -1,0 +1,90 @@
+Received: from smtpbg6.qq.com (unknown [183.60.61.231])
+	by mx27 (Coremail) with SMTP id TcCowEBJDENh9ERSkHMIAQ--.599S2;
+	Fri, 27 Sep 2013 10:58:42 +0800 (CST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=qq.com; s=s201307;
+	t=1380250721; bh=XY13TNJ2tF2nyaxa0tkGdz2/50XddIRhFJlfxmLyZA8=;
+	h=X-QQ-mid:Received:X-QQ-SSF:Date:From:To:Subject:X-Priority:
+	 X-Has-Attach:X-Mailer:Mime-Version:Message-ID:Content-Type:
+	 X-QQ-SENDSIZE;
+	b=IdzVSULYtWui1BfXts4LLYbJB+VgBzVAsnYRs4dGoGkbbPn2d9jzI9db2BJfNW8mb
+	 afdlGDcDliFFty13z5eoLYSEvGeEZC7rlpv/CPZhw8N40ABpLpBYeCdxisSiCHf0AA
+	 MMdnujyL6LoAuYE8hhCft1nK61YbBpYVL2OL/nwY=
+X-QQ-mid: esmtp12t1380250720t872t13532
+Received: from PC-20130912MODU (unknown [221.209.29.157])
+	by esmtp4.qq.com (ESMTP) with SMTP id 0
+	for <nele0716@163.com>; Fri, 27 Sep 2013 10:58:40 +0800 (CST)
+X-QQ-SSF: 0001000000000040F9701F000000000
+Date: Fri, 27 Sep 2013 10:58:45 +0800
+From: =?GB2312?B?xPTA1g==?= <1941973283@qq.com>
+To: nele0716 <nele0716@163.com>
+Subject: =?GB2312?B?0r3Rp9S61NrP37+8ytTPtc2zu7bTrcT6?=
+X-Priority: 3
+X-Has-Attach: no
+X-Mailer: Foxmail 7, 1, 3, 52[cn]
+Mime-Version: 1.0
+Message-ID: <2013092710584463472099@qq.com>
+Content-Type: multipart/alternative;
+	boundary="----=_001_NextPart164438535865_=----"
+X-QQ-SENDSIZE: 520
+X-CM-TRANSID:TcCowEBJDENh9ERSkHMIAQ--.599S2
+Authentication-Results: mx27; spf=pass smtp.mail=1941973283@qq.com; dk
+	im=pass header.i=@qq.com
+X-Coremail-Antispam: 1Uf129KBjDUn29KB7ZKAUJUUUUU529EdanIXcx71UUUUU7v73
+	VFW2AGmfu7bjvjm3AaLaJ3UbIYCTnIWIevJa73UjIFyTuYvjTRTSoJUUUUU
+
+This is a multi-part message in MIME format.
+
+------=_001_NextPart164438535865_=----
+Content-Type: text/plain;
+	charset="GB2312"
+Content-Transfer-Encoding: base64
+
+DQoNCsTj0tG+rdTa0r3Rp9S61NrP37+8ytTPtc2zs8m5pteisuGju8O/tbG/vMrUwdm9/Mqxo6zO
+0sPHu+HKtcqxzajWqsT6o7vE+tKyv8nS1LXHwrzSvdGn1LrU2s/fv7zK1M+1zbOy6dGvo7vUpNej
+xPrU2sO/tM61xL+8ytTW0MihtcPC+tLis8m8qC4=
+
+------=_001_NextPart164438535865_=----
+Content-Type: text/html;
+	charset="GB2312"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD>
+<META content=3D"text/html; charset=3DGB2312" http-equiv=3DContent-Type>
+<STYLE>
+BLOCKQUOTE {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px; MARGIN-LEFT: 2em
+}
+OL {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+}
+UL {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+}
+P {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px
+}
+BODY {
+	LINE-HEIGHT: 1.5; FONT-FAMILY: =CE=A2=C8=ED=D1=C5=BA=DA; COLOR: #000000; =
+FONT-SIZE: 10.5pt
+}
+</STYLE>
+
+<META name=3DGENERATOR content=3D"MSHTML 9.00.8112.16506"></HEAD>
+<BODY style=3D"MARGIN: 10px">
+<DIV>&nbsp;</DIV>
+<DIV>&nbsp;</DIV>
+<DIV><SPAN>
+<DIV style=3D"FONT-FAMILY: verdana; FONT-SIZE: 10pt">
+<DIV>
+<DIV style=3D"FONT-SIZE: 10.5pt"><SPAN=20
+style=3D"FONT-SIZE: 16pt">=C4=E3=D2=D1=BE=AD=D4=DA=D2=BD=D1=A7=D4=BA=D4=DA=
+=CF=DF=BF=BC=CA=D4=CF=B5=CD=B3=B3=C9=B9=A6=D7=A2=B2=E1=A3=BB=C3=BF=B5=B1=
+=BF=BC=CA=D4=C1=D9=BD=FC=CA=B1=A3=AC=CE=D2=C3=C7=BB=E1=CA=B5=CA=B1=CD=A8=
+=D6=AA=C4=FA=A3=BB=C4=FA=D2=B2=BF=C9=D2=D4=B5=C7=C2=BC=D2=BD=D1=A7=D4=BA=
+=D4=DA=CF=DF=BF=BC=CA=D4=CF=B5=CD=B3=B2=E9=D1=AF=A3=BB=D4=A4=D7=A3=C4=FA=
+=D4=DA=C3=BF=B4=CE=B5=C4=BF=BC=CA=D4=D6=D0=C8=A1=B5=C3=C2=FA=D2=E2=B3=C9=
+=BC=A8.</SPAN></DIV></DIV></DIV></SPAN></DIV></BODY></HTML>
+
+------=_001_NextPart164438535865_=------
+

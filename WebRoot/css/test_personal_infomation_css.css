@@ -1,0 +1,30 @@
+@CHARSET "UTF-8";
+
+#box_div{
+	height:100%;
+    border-top-style: groove;
+}
+#menu_list{
+	margin-left:70px;
+   margin-top: 26px;
+}
+
+#modify_user_info{
+	font-family: monospace;
+    font-size: xx-large;
+    color: #336699;
+}
+#search_user_grade{
+    font-family: monospace;
+    font-size: xx-large;
+    margin-left: 26px;
+     color: #336699;
+}
+#box_div #menu_list {
+  
+}
+
+.mouse_on_span{
+	background-color: #66CC99;
+}
+

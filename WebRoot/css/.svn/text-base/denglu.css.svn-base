@@ -1,0 +1,64 @@
+/* CSS Document */
+body,td,th {
+	color: #006;
+	font-size: 14px;
+	font-family: "MS Serif", "New York", serif;
+}
+
+	.main
+	{
+		width:1360px;
+		border:1px #000000 solid;
+		margin-left:0px;
+		marign-top:0px;
+		height:580px;
+		background-image:url(../images/bg.jpg);
+		background-repeat:no-repeat;
+		background-size:1360px 575px;
+     }
+     
+     /*登陆的div界面设置*/
+     .jiemiandiv
+   {
+	   width:450px;
+	   border:1px #0000CC solid;
+	 
+	   height:240px;
+	  /* background:url(../images/11198308_200431494120_2.jpg);*/
+	}
+	 /*登陆的表个设置*/
+	.dengmenu{
+		margin-top:18px;
+		margin-left:35px;
+		
+		} 
+		
+	#loginOK{
+	  background: url("../images/login.jpg");
+	  margin-left: 140px;
+	}	
+	
+	#register{
+	  background-image: url("../images/register.jpg");
+	  margin-left: 40px;
+	}
+	
+	input:focus{
+	background: yellow;
+	}
+	
+	
+	 .box{
+	    margin-left:420px;
+	    margin-top:175px;
+	     width:450px;
+	     height:240px;
+	 }
+    ul{list-style-type:none;}
+   .main.box ul{height:30px; line-height:30px;}
+   .box ul li{float:left; padding:0 30px; border:1px #093 solid; margin-left:30px; border-bottom:none;}
+   .cantain{ width:400px; border:1px #096 solid; padding:10px; height:200px;}
+   .box ul li.login{ background:#fff;}
+   * html .cantain { margin-top:-1px;}
+   .box ul li.two { background:orange;}
+	 

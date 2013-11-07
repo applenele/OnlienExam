@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<!-- 默认的视图主题 -->
+     <constant name="struts.ui.theme" value="simple" />
+	 <constant name="struts.objectFactory" value="spring" />
+	 
+	 <!-- 用户登录时的包 里面存放 全部关于用户登陆的全部的action -->
+	 <package name="user" namespace="/" extends="json-default">
+	    <!-- 用户登录的action -->
+	     <action name="login" class="teacherLoginAction" method="execute">
+	       <result type="json">
+	          <param name="root">map</param>
+	       </result>
+	     </action>
+	   
+	   <!-- 修改用户班级id -->
+	   <action name="modifyClassId" class="modifyClassId" method="execute">
+	     <result type="json">
+	       <param name="root">result</param>
+	     </result>
+	   </action>
+	  
+	     <!-- 学生修改密码 -->
+	   <action name="verifyToPrePwd" class="verifyToPrePwd">
+	       <result type="json">
+	         <param name="root">result</param>
+	       </result>
+	   </action>
+	   <action name="studentModifyPwd" class="studentModifyPwd" method="execute">
+	   	   <result type="json">
+	   	     <param name="root">result</param>
+	   	   </result>
+	   </action> 
+      
+        <!-- 更改邮箱号 -->
+	   <action name="modifyEmail" class="modifyEmail" method="execute">
+	        <result type="json">
+	          <param name="root">result</param>
+	        </result>
+	   </action>  
+	     
+	      <!-- 用户注册的action -->
+	      <action name="verifyCode" class="verifyCode" method="execute">
+	        <result type="json">
+	          <param name="root">result</param>
+	        </result>
+	      </action>
+	      
+	     <action name="register" class="teacherRegisterAction" method="execute">
+	       <result type="json">
+	          <param name="root">map</param>
+	       </result>
+	     </action>
+	     <!-- 用户注册页面初始化 -->
+	     <action name="getAllXyAndMajorAndClass" class="regissterGetAllXy" method="execute">
+	       <result type="json">
+	          <param name="root">map</param>
+	       </result>
+	     </action>
+	 </package>
+	 
+	 <!-- 学生管理界面的包 里面存放全部的关于学生管理的action -->
+	 <package name="studentManage" namespace="/" extends="json-default">
+	    <!-- 教师管理界面左侧的点击增加学生后在mainFrame中跳转到增加的学生的增加信息界面 -->
+	    <action name="addStudent" class="addStudent" method="execute">
+	      <result name="success">/teacherOperator/addStudent.jsp</result>
+	    </action>
+	    
+	     <!-- 根据前台的xyId实现查找该xyId的全部的major -->
+	    <action name="getMajor" class="searchMajorByXyId" method="execute">
+	        <result type="json">
+	          <param name="root">result</param>
+	        </result>
+	    </action>
+	    
+	    <!-- 根据前台的majorId实现查找该majorId的全部的班级 -->
+	    <action name="getClass" class="searchClassByMajorId"  method="execute">
+	       <result type="json">
+	           <param name="root">result</param>
+	       </result>
+	    </action>
+	    
+	    <!-- 接受前台传过来的一个学生的信息，在数据库中增加一个学生 -->
+	    <action name="submitaddStudent" class="submitAddStudent" method="execute">
+	       <result type="json">
+	       </result>
+	    </action>
+	     
+	    <!-- 转换到搜索学生界面，并页面初始化 -->
+	    <action name="showSearchStudentView" class="addStudent" method="execute">
+	       <result name="success">/teacherOperator/showSearchStudentView.jsp</result>
+	    </action>
+	    
+	    <!--查询学生-->
+	    <action name="searchStudent" class="searchStudent" method="execute">
+	      <result  name="success">/teacherOperator/showResultOfSearch.jsp</result>
+	    </action>
+	    
+	    <!-- 实现查询结果的翻页 -->
+	    <action name="getSearchResultPage" class="getSearchResultPage" method="execute">
+	       <result type="json">
+	          <param name="root">result</param>
+	       </result>
+	    </action>
+	    
+	    <!-- 转到显示全部学生的界面 -->
+	    <action name="searchAllStudent" class="searchAllStudent" method="execute">
+	       <result name="success">/teacherOperator/showAllStudent.jsp</result>
+	    </action>
+	    
+	    <!-- 实现上下页  首尾页 -->
+	     <action name="getPage" class="getPage" method="execute">
+	       <result type="json">
+	         <param name="root">result</param>
+	       </result>
+	    </action>
+	    
+	    <!-- 转向修改学生 -->
+	    <action name="toModifyStudent" class="getToModifyStudent" method="execute">
+	      <result name="success">/teacherOperator/modifyStudent.jsp</result>
+	    </action>
+	    
+	    <action name="confirmOldPassword" class="confirmOldPassword" method="execute">
+	       <result type="json">
+	         <param name="root">result</param>
+	       </result>
+	    </action>
+	    
+	    <!-- 修改学生的信息 -->
+	    <action name="toModifyStudentInfo" class="toModifyStudentInfo" method="execute">
+	      <result type="json">
+	        <param name="root">result</param>
+	      </result>
+	    </action>
+	 </package>
+</struts>

@@ -1,0 +1,76 @@
+package org.nele.action;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.annotation.Resource;
+
+import org.apache.struts2.json.annotations.JSON;
+import org.nele.dao.TeacherDao;
+import org.nele.domain.Teacher;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Controller;
+
+import com.opensymphony.xwork2.ActionContext;
+import com.opensymphony.xwork2.ActionSupport;
+
+
+@Controller @Scope("prototype")//多例模式
+public class TeacherAction extends ActionSupport {
+	
+   @Resource TeacherDao teacherDaoImpl;
+   private  Map<String,String> map;
+   private Teacher teacher;
+   private String result;
+   private String verifyCode;
+   
+   @JSON(serialize=false)
+	   public String getVerifyCode() {
+		return verifyCode;
+	}
+
+	public void setVerifyCode(String verifyCode) {
+		this.verifyCode = verifyCode;
+	}
+
+@JSON(serialize=false)
+	   public Teacher getTeacher() {
+		return teacher;
+	 }
+
+	public void setTeacher(Teacher teacher) {
+		this.teacher = teacher;
+	}
+   @JSON(serialize=false)
+	public String getResult() {
+		return result;
+	}
+
+	public void setResult(String result) {
+		this.result = result;
+	}
+
+	@JSON(serialize=false)
+	   public Map<String, String> getMap() {
+		return map;
+	  }
+
+  public void setMap(Map<String, String> map) {
+	this.map = map;
+   }
+
+  public String execute(){
+	  map=new HashMap<String, String>();
+	    String randCode=(String) ActionContext.getContext().getSession().get("rand");
+	    if(randCode.equals(verifyCode)){
+	       	if(teacherDaoImpl.loginVerify(teacher.getTuserName(),teacher.getTpassword())){
+	       		map.put("result", "登陆成功！");
+	       	}else{
+	       		map.put("result", "用户名或密码不正确");
+	       	}
+	    }else{
+	    	map.put("result", "验证码不正确");
+	    }
+	   return SUCCESS;
+   }
+}

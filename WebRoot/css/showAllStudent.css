@@ -1,0 +1,118 @@
+@CHARSET "UTF-8";
+
+/*body的设置*/
+body{
+  
+    background-image: url(../images/showAllStudentBackgroundPic.jpg);
+    
+    background-attachment: fixed;;
+   
+}
+
+/*标题的设置*/
+.header{
+	margin-left: 400px;
+	color: #006699;
+}
+
+/*显示查询学生的结果的标题下的导航*/
+.showSearchRequestDiv{
+	margin: 20px;
+	background-color: #CCCCFF;
+}
+.showSearchRequest{
+	color:#CC0033;
+	font-family: cursive;
+	font-size: medium;
+}
+.showResultDH{
+	color: #CC0033;
+	font-family:'隶书', Arial, Sans-serif;
+}
+
+
+/*显示学生信息的table样式*/
+.showStudentTable{
+	  color:#333333;
+	  margin-left: 30px;
+	  background-color: #FFFFFF;
+}
+.showStudentTable tr{
+	height: 35px;
+}
+.showStudentTableOddtr {
+	background-color:#99CCFF;
+}
+.showStudentTableOddtd{
+	
+}
+.showStudentTable tr th{
+	font-size: small;
+	color: #666699;
+	font-family:serif;
+}
+.showStudentTable tr td{
+	font-size:small;
+	color: #333300;
+	font-family:serif;
+}
+.onmouseoverTr{
+	background-color: yellow;
+}
+/*操作a的样式的设置*/
+.showStudentTable tr td a{
+	text-decoration: none;
+	margin-right: 10px;
+	margin-left: 10px;
+	color: #333333;
+}
+.pageturning{
+	margin-left:300px;
+	width: 400px;
+}
+
+.showStudentTable tr td a:hover { 
+	background-color:#009999;
+	text-decoration:none; 
+} 
+
+/*分页到最后一页提示*/
+.lastWarning{
+	margin-left: 60px;
+	color: red;
+}
+
+/*显示总页数*/
+.showPageCount{
+	margin-left: 60px;
+}
+
+/*页数显示*/
+.pageIdShow{
+	margin-left: 5px;
+	color:blue;
+	font-size:16px;
+}
+.mouseover{
+	color: red;
+	margin-left: 5px;
+	font-size:large;
+}
+
+/*查询结果为空是的样式*/
+.noResearchResultHead{
+	color: #336699;
+}
+
+/*上下翻页的按钮的样式*/
+.fyResultBtn{
+	height: 25px;
+	width: 60px;
+	border:0px;
+	background-color: #0099CC;
+	margin-left: 10px;
+}
+.onmouseoverFyBtn{
+	background-color:#9933CC;
+}
+

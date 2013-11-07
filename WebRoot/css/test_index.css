@@ -1,0 +1,93 @@
+@CHARSET "UTF-8";
+
+
+body{
+	padding:0px;
+	margin:0px;
+	
+}
+div ul{
+	padding:0px;
+    margin:0px;
+}
+#box{
+	 margin-top: 5%;
+}
+#left{
+	width: 20%;
+	border: 1px solid #0099CC; 
+	text-align: center;
+	float: left;
+}
+#main{
+	width: 60%;
+	border: 1px solid #0099CC; 
+	float: left;
+}
+#right{
+	width: 19.54%;
+	border: 1px solid #0099CC; 
+	text-align: center;	
+	float: right;
+
+}
+
+#main #show_user{
+	border: 1px red #33CC33;
+	margin-top: 6%;
+}
+#main #show_user #user_name{
+	font-family: cursive;
+	font-size:xx-large;
+	color: #FFFFCC
+}
+#main #show_user #user_login_welcome{
+	 font-weight: bold;
+	 color: #CC3399;
+}
+#main #show_user #loginout{
+   color:#003366;
+   margin-left: 26px;
+   font-weight: bolder;
+   font-family: "幼圆";
+}
+
+#header_show{
+	color:#FFFFFF;
+	margin-top: 20px;
+	height: 30px;
+	text-align:center;
+	margin-left: 30px;
+}
+.menu{
+	text-align: center;
+	margin-top: 2px;
+	position: relative;
+}
+.header_show_current{
+	font-size: 20px;
+	background-color: #99CCFF;
+	height: 30px;
+	border: 1px #336699 solid;
+	border-bottom-style: none;
+}
+#main #header_show ul li{
+	font-family: FZYaoti;
+	float: left;
+	list-style: none;
+	margin-left: 10px;
+}
+
+.content{
+	height: 350px;
+	background-color: #99CCFF;
+}
+
+
+.layout{
+	
+}
+
+
+
+

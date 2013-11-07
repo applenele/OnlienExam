@@ -1,0 +1,97 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>--登录--</title>
+<link rel="stylesheet" type="text/css" href="css/denglu.css" />
+<script type="text/javascript" src="js/jquery-1.10.2.min.js" ></script>
+<script type="text/javascript" src="js/loginVerify.js"></script>
+</head>
+<body>
+ <div class="main">
+
+ <div class="box">
+  <ul>
+   <li class="login">用户登录</li>
+   <li>用户注册</li>
+  </ul>
+  <div class="cantain">
+   <div class="dr"> 
+   <!--   <div class="jiemiandiv">-->
+     <table width="382" class="dengmenu" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="115" height="29"><strong><font style="margin-left: 35px">用户名</font></strong></td>
+    <td width="251">
+       <input id="tuserName" type="text"/>
+    </td>
+  </tr>
+  <tr>
+    <td height="30"><strong><font style="margin-left: 40px">密  码</font></strong></td>
+    <td>
+       <input type="password" id="tpassword" />
+    </td>
+  </tr>
+  <tr>
+    <td height="30">
+    <strong><font style="margin-left: 35px">验证码</font></strong></td>
+    <td>
+       <input type="text" id="verifyCode"/><img src="image.jsp" id="code"/>
+    </td>
+  </tr>
+  <tr>
+    <td height="30" colspan="2"><div id="warning"></div></td>
+    </tr>
+  <tr>
+    <td height="30" colspan="2">
+    <input name="按钮" type="button"  id="loginOK" /> 
+    <input name="按钮" type="button"  id="register" value="注册"/>
+    </td>
+    </tr>
+ </table>
+ </div>
+   <!--</div>  -->
+     <div class="dr">  <table width="382" class="dengmenu" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="115" height="29"><strong><font style="margin-left: 35px">用户名</font></strong></td>
+    <td width="251">
+       <input id="tuserName" type="text"/>
+    </td>
+  </tr>
+  <tr>
+    <td height="30"><strong><font style="margin-left: 40px">密  码</font></strong></td>
+    <td>
+       <input type="text" id="tpassword" />
+    </td>
+  </tr>
+  <tr>
+    <td height="30">
+    <strong><font style="margin-left: 35px">密码重复</font></strong></td>
+    <td>
+       <input type="text" id="verifyCode"/>
+    </td>
+  </tr>
+  <tr>
+    <td height="30">
+    <strong><font style="margin-left: 35px">邮箱</font></strong></td>
+    <td>
+       <input type="text" id="verifyCode"/>
+    </td>
+  </tr>
+   <tr>
+    <td height="30" colspan="2"><div id="warning"></div></td>
+  </tr>
+  <tr>
+    <td height="30" colspan="2">
+    <input name="按钮" type="button"  id="loginOK" value="提交"/> 
+    </td>
+    </tr>
+    
+ </table></div>
+  </div>
+  </div>
+
+ </div> 
+</body>
+</html>

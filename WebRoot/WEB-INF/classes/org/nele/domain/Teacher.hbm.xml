@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping
+      package="org.nele.domain">
+	<class name="Teacher" table="ex_teacher" >
+	    <id name="tid" column="tid">
+	       <generator class="native" />
+	    </id>
+	   
+	    <property name="tuserName" column="tuserName" type="java.lang.String"></property>
+       <!-- <property name="lid" column="lid" ></property> --> 
+        <property name="tpassword" column="tpassword" type="java.lang.String"></property>
+        <property name="email" column="email"></property>
+        <property name="majorId" column="majorId" type="java.lang.Integer"></property>
+	</class>
+</hibernate-mapping>
+

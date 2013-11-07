@@ -1,0 +1,72 @@
+
+$(document).ready(function(){
+    
+	 $('.dr:gt(0)').hide();
+		
+		var hdw = $('.box ul li');
+		
+		hdw.hover(function(){
+			
+			$(this).addClass('two')
+					.siblings().removeClass('two');
+				
+			});
+		
+		hdw.click(function(){
+			
+			$(this).addClass('login')
+					.siblings().removeClass();
+			
+			
+		var hdw_index = hdw	.index(this);
+		
+		$('.dr').eq(hdw	.index(this)).show()
+				.siblings().hide();
+			
+			});
+	
+	$("#loginOK").click(function(){
+		var tuserNameNode=$("#tuserName");
+		var tpasswordNode=$("#tpassword");
+		var verifyCodeNode=$("#verifyCode");
+		
+		var tuserName=tuserNameNode.val();
+		var tpassword=tpasswordNode.val();
+		var verifyCode=verifyCodeNode.val();
+		
+		if(tuserName==""){
+			$("#warning").text("用户名不能为空！请输入用户名!");
+		    return;
+		}
+		if(tpassword==""){
+			$("#warning").text("密码不能为空！请输入密码！");
+			return;
+		}
+		if(verifyCode==""){
+			$("#warning").text("验证码不能为空！请输入验证码！");
+			return;
+		}
+		$.ajax({
+			type:"post",
+			url:"login",
+			dataType:"json",
+			cache:false,
+			data:{
+				"teacher.tuserName":tuserName,
+		        "teacher.tpassword":tpassword,
+		        "verifyCode":verifyCode,
+			},
+		success:function(data){
+               var result=data.result;
+			  if(result.toString()=="登陆成功！"){
+				 window.location.href="index.jsp";
+			  }else{
+				  $("#warning").text(result);  
+			  }
+		 },
+		 error:function(data){
+			 alert(data);
+		 }
+		});
+	});
+});

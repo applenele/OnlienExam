@@ -1,0 +1,118 @@
+@CHARSET "UTF-8";
+
+
+/*registerForm setting*/
+#header_title{
+	font-size: 24px;
+}
+#confirm{
+	text-align: center;
+}
+#registerForm{
+	border:1px solid red;
+	text-align:right;
+	}
+#registerForm ul{
+	border:1px solid blue;
+	width:386px;
+	margin-left:30%;}	
+#registerForm ul li{
+	list-style:none;
+	margin-left:7%;
+	margin-top:10px;
+	}
+
+#registerForm ul li input:focus{
+	background:#CCFFCC;
+	}	
+#userLi{
+	margin-right:7%;}
+#userLi input{
+	height:25px;
+	width:126px;}	
+	
+#passwordLi{
+	margin-right:11%;}
+#passwordLi input{
+	height:25px;
+	width:126px;}
+	
+#passwordAgainLi {
+	margin-right:3%;}
+#passwordAgainLi input{
+	height:25px;
+	width:126px;}
+		
+#emailLi{
+	margin-right:11%;
+	}
+#emailLi input{
+	height:25px;
+	width:126px;
+}
+
+#register_userKind{
+	width:129px;
+	height:25px;}
+	
+#userKindLi{
+	margin-right:1%;
+	}	
+	
+#register_verifycode_li{
+	margin-right: 6%;
+}
+#register_verifycode_li input{
+	height:25px;
+	width:60px;
+}
+#register_rand{
+	margin-left: 10px;
+}
+#register_quit_span{
+	margin-right: 6%;
+}
+
+#register_submit_span{
+	margin-right: 10%;
+}
+
+#register_submit_button{
+	border: none;
+	width: 50px;
+	height: 30px;
+}
+#register_quit_button{
+	border: none;
+	width: 50px;
+	height: 30px;
+}
+/*input warning setting*/
+.input_user_warning{
+	color:#333333;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;}
+.input_password_warning{
+	color:#333333;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;}
+.input_password_again_warning{
+	color:#333333;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;}
+.input_email_warning{
+	color:#333333;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;}
+.select_userKind_warning{
+	color:#333333;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;}
+.input_verifycode_warning{
+	color:#333333;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.input_error{
+	color:#FF0033;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;}
+	
+.input_or_select_correct{
+	color:#00CC00;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}

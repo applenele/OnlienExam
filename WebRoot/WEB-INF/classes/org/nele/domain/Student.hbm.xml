@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="org.nele.domain">
+   <class name="Student" table="ex_student">
+       <id name="sno" column="sno" type="java.lang.Integer">
+         <generator class="native"></generator>
+       </id>
+       
+       <property name="studentName" column="studentName" type="java.lang.String"></property>
+       <property name="studentPassword" column="studentPassword" type="java.lang.String"></property>
+       <property name="studentSex" column="studentSex" type="java.lang.String"></property>
+       <property name="classId" column="classId" type="java.lang.Integer"></property>
+       <property name="email" column="email" type="java.lang.String"></property>
+       <property name="studentNum" column="studentNum" type="java.lang.String"></property>
+   </class>
+</hibernate-mapping>

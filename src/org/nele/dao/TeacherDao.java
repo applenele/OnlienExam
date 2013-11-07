@@ -1,0 +1,12 @@
+package org.nele.dao;
+
+import org.nele.domain.Teacher;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+@Service @Transactional//自动扫描，自动管理事物
+public interface TeacherDao {
+   public Teacher getTeacher(long id);
+   public Teacher loginVerify(String tuserName,String tpassword);
+   public void register(Teacher teacher);
+}

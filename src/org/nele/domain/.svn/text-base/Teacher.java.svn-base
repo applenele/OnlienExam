@@ -1,0 +1,32 @@
+package org.nele.domain;
+
+public class Teacher {
+    private long tid;
+    private String tuserName;
+    private long lid;
+    private  String tpassword;
+	public long getTid() {
+		return tid;
+	}
+	public void setTid(long tid) {
+		this.tid = tid;
+	}
+	public String getTuserName() {
+		return tuserName;
+	}
+	public void setTuserName(String tuserName) {
+		this.tuserName = tuserName;
+	}
+	public long getLid() {
+		return lid;
+	}
+	public void setLid(long lid) {
+		this.lid = lid;
+	}
+	public String getTpassword() {
+		return tpassword;
+	}
+	public void setTpassword(String tpassword) {
+		this.tpassword = tpassword;
+	}
+}
